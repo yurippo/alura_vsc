@@ -51,7 +51,16 @@ for (let i = 0; i < PalavraSimples.length; i++) {
     console.log(PalavraSimples[i])
 }
 
+// JS for review
 
+// for ([inicialização]; [condição]; [expressão final])
+//    declaração
+
+// É possível habilitar o recurso de code snippets no VSC, que são diversos pedaços, estruturas de código frequentemente utilizados.
+// Code snippets, em tradução livre, significa “pedaços de código”. O VSC pode, de forma automática ou configurada pelo usuário, reutilizar esses fragmentos com um autocomplete. O editor de código possui integração nativa para algumas linguagens (como JavaScript) e com outras você pode adicionar uma extensão. Dessa maneira, o code snippets se torna como uma poderosa ferramenta para produtividade.
+
+// É possível trabalhar com a funcionalidade de code snippets com o atalho CTRL + espaço e buscar pelo fragmento de código desejado.
+// A partir do atalho CTRL + espaço é possível fazer uma busca nos code snippets que retorna fragmentos de código embutidos no VSC e os desenvolvidos ao longo do código, como variáveis ou funções. Utilize a ferramenta com sabedoria!
 
 
 
@@ -201,3 +210,76 @@ for (let i = 0; i < PalavraSimples.length; i++) {
 // Conhecer algumas funcionalidades para melhorar a visualização do código;
 // Entender os erros apresentados pelo VSCode;
 // Entender como utilizar os snippets.
+
+// Extensões
+
+// Sempre que vamos trabalhar com um editor de código, procuramos formas de melhorar a produtividade em nosso projeto. Em alguns momentos o editor fornece de forma nativa, ou seja já vem embutida na própria ferramenta, uma solução para determinado problema. Porém, em outras ocasiões é necessária a instalação de extensões.
+
+// Mas o que são extensões do vscode?
+// As extensões ajudam o VSCode a ficar mais alinhado com a sua necessidade de trabalho. Você pode adicionar novas funcionalidades, temas de cores e muito mais no Marketplace de Extensões.
+
+// https://marketplace.visualstudio.com/vscode
+
+// Dica: Atualização de extensões.
+
+// Para garantir o bom funcionamento das extensões, sempre verifique se estão atualizadas. Caso estejam descontinuadas, verifique a compatibilidade com sua versão do VSCode.
+
+// Extensões úteis:
+
+// Live Share. Para codar em equipe de forma simultânea;
+
+// CSS Peek. Para desenvolvedores Full Stack ou Front-end, a extensão pode auxiliar nas visualizações dos CSS aplicados nos elementos dos HTML. Você consegue visualizar quais as regras do CSS que estão sendo aplicadas ao passar o cursor sobre o id ou nome da classe, dentre outras funcionalidades;
+
+// Prettier. Prettier é um formatador de código opinativo. Ele funciona aplicando um estilo consistente, analisa o código e retorna com suas próprias regras que levam em consideração o comprimento máximo da linha, quebra de linha, e alinha o código quando necessário;
+
+// Thunder Client. A extensão Thunder Client é excelente para quem deseja trabalhar com testes de requisições http de uma forma mais leve e com design simples em sua API Rest;
+
+// Code Time. Excelente ferramenta para produtividade, o Code Time gera um log com a quantidade de tempo que você passa no VSCode dentre outras informações;
+
+// Markdown Preview Enhanced, pra quem gosta de ver como estão ficando os markdowns;
+
+// Marp for VS Code, usada para fazer slide utilizando markdown;
+
+// Excel Viewer, para visualizar arquivos csv e planilhas Excel;
+
+// Bracket Pair Colorizer, ajuda a identificar aberturas e fechamentos de chaves e parênteses pelas cores.
+
+// Além das já citadas, você pode conferir algumas das principais extensões no artigo Extensões VS Code: descubra quais são as mais usadas.
+
+// https://www.alura.com.br/artigos/extensoes-vs-code-descubra-as-mais-usadas
+
+// Leitura obrigatória para todos que optaram pelo VSC como seu editor de código, o artigo VisualStudio Code: instalação, teclas de atalho, plugins e integrações, que contém informações importantes e um apanhado geral de todas as funcionalidades da ferramenta.
+
+// https://www.alura.com.br/artigos/visualstudio-code-instalacao-teclas-de-atalho-plugins-e-integracoes
+
+
+// Ferramentas de acessibilidade
+
+// Muitas pessoas desenvolvedoras utilizam recursos como leitores de tela, alto contraste e atalhos para programar com o Visual Studio Code, e o editor de código possui uma excelente integração com ferramentas voltadas à acessibilidade, tais como os leitores de tela. Para você conferir se o seu VSCode está configurado, selecione o atalho Alt + F1.
+
+// Abaixo seguem algumas dicas de atalhos e funcionalidades:
+
+// Para pessoas desenvolvedoras que apresentam condições como TDAH, o VSCode disponibiliza uma funcionalidade chamada modo zen (o atalho para ativar é ctrl + k + z), que reduz a quantidade de informações na tela e pode ser um aliado para manter o foco;
+
+// Ao pressionar a tecla F6 você pode navegar pela barra lateral esquerda e inferior do VSC;
+
+// Você pode ativar a funcionalidade Screencast através da paleta de comandos, assim é possível identificar qual tecla está sendo clicada e o cursor apresenta um destaque. Acesse a paleta com Ctrl + Shift + P e busque por Screencast;
+
+// Uma funcionalidade excelente é a possibilidade de customização dos atalhos. Para conferir, basta seguir o caminho: acesse a paleta de comandos > no buscador escolha a funcionalidade que desejar > no ícone da engrenagem,que está posicionado no canto direito de cada feat buscada, pode configurar o atalho para o comando. Ou então pode utilizar a visualização de todos os atalhos, como demonstrado em vídeo, com o comando ctrl + K + ctrl + S;
+
+// Confira mais dicas de acessibilidade na documentação oficial do VSCode.
+
+// https://code.visualstudio.com/docs/editor/accessibility
+
+// Durante esse projeto, entendemos como encontrar e instalar as extensões. Agora, exercite o que você aprendeu com sua linguagem de preferência e realize suas customizações. Para isso:
+
+// Escolha um tema de cores que você goste;
+// Instale extensões voltadas para a linguagem de sua preferência;
+// Confira quais são as ações que você mais executa no VSCode, como criar um novo arquivo ou salvar modificações em um texto, e comece a trabalhar com atalhos.
+
+// Utilizar as ferramenta de versionamento Git via VSCode;
+// Integrar o Github via VSCode;
+// Extensão ESlint;
+// Trabalhar em conjunto com a extensão Live Share;
+// Trabalhar com linguagens que não são suportadas nativamente pelo VSCode;
+// Utilizar extensões que deixam seu VSCode mais acessível.
